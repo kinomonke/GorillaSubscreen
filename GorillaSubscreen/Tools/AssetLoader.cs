@@ -9,7 +9,7 @@ namespace GorillaSubscreen.Tools
     public class AssetLoader
     {
         private static AssetBundle loadedBundle;
-        private static readonly Dictionary<string, Object> loadedAssets = new Dictionary<string, Object>();
+        private static readonly Dictionary<string, Object> loadedAssets = [];
 
         private static Task bundleLoadTask;
 
